@@ -1,5 +1,5 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
+  Portfolio Website - Rohan Chaudhari<br/>
  
 </h2>
 <div align="center">
@@ -13,7 +13,7 @@
 
 ## Built With
 
-My personal portfoliowhich features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 

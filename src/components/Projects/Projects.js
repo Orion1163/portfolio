@@ -49,6 +49,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+            
               imgPath={ionet}
               isBlog={false}
               title="Ionet Solutions"
