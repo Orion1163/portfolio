@@ -5,6 +5,8 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
+import { FaRegPenToSquare } from "react-icons/fa6"
+import { FaUserTie } from "react-icons/fa";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -109,10 +111,19 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/experience"
+                onClick={() => updateExpanded(false)}
+              >
+                <FaUserTie style={{ marginBottom: "2px" }} /> Experience
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/blogs"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Blogs
+                <FaRegPenToSquare style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
 
