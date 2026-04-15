@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import emotion from "../../Assets/Projects/emotion.png";
 import resq from "../../Assets/Projects/resq.png";
 import icms from "../../Assets/Projects/icms.png";
 import production from "../../Assets/Projects/production.png";
